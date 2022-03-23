@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        
+        <title>Pokedex</title>
+        <link rel="stylesheet" href="file:///D:/Office/Front/PokeDex/css/styles.css">
+    </head>
+    <body>
+		<div class="images">
+			
+		
+        <h1>Pokedex</h1>
+		<div class="ajs">
+		 <input type="text" placeholder="pokemonName" id="pokeName" name="pokeName"><br><br><br>
+        <img src="file:///D:/Office/Front/PokeDex/pokebola.jpg" alt="pokebola" id="pokeImg" width="150px" class="mig1"><br>
+		</div>
+       
+        <div data-poke-types class="poke-types">
+        <p id="pokeID">0</p>
+        <p id="pokemonID">0</p>
+        <p id="ataque">0</p>
+        <p id="EspeciaAta">1</p>
+        <p id="EspecialDef">1</p>
+        <p id="defense"></p>
+        <p id="veolocidad">0</p>
+            </div>
+        <div data-poke-stats class="poke-stats"></div>
+    
+            <button onclick="fetchPokemon()" name="pokemon" class="butonCh">Cambiar Pokemon</button>
+        
+       </div>
+    </body>
+    <footer> <script src="file:///D:/Office/Front/PokeDex/JS/pokedex.js"></script>
+    
+    </footer>
+</html>
